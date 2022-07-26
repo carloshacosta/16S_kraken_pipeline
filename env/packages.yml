@@ -1,0 +1,8 @@
+name: 16S_challenge
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.8
+  - trimmomatic=0.38
+  - fastqc
