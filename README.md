@@ -32,13 +32,13 @@ The installation of ALLMT can be done by cloning the repo inside the destination
 ```
   git clone https://github.com/carloshacosta/16S_kraken_pipeline
   cd /16S_kraken_pipeline
-  chmod +x 16S_challenge.py
+  chmod +x 16S_kraken_pipeline.py
 ```
 ### Installing Dependecies
 
 ```
   conda env create -f env/packages.yml
-  conda activate 16S_challenge
+  conda activate 16S_kraken_pipeline
 ```
 **Note** Once kraken2 must be installed in the path variable, you must install some of the available database to run analysis. In the exampĺe below we used rdp (Ribosomal Database Project) database
 
