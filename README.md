@@ -38,7 +38,6 @@ The installation of ALLMT can be done by cloning the repo inside the destination
 
 ```
   conda env create -f env/packages.yml
-  pip install -r requirements.txt
   conda activate 16S_challenge
 ```
 **Note** Once kraken2 must be installed in the path variable, you must install some of the available database to run analysis. In the exampĺe below we used rdp (Ribosomal Database Project) database

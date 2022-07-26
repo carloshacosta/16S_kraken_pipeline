@@ -6,3 +6,4 @@ dependencies:
   - python=3.8
   - trimmomatic=0.38
   - fastqc
+  - pandas=1.4.3
