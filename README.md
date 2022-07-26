@@ -53,7 +53,7 @@ kraken2-build --db <kraken2_db_dir> --special rdp
 Once you have the database from `kraken2-build`.
 
 ```  
-python3  16S_challenge.py --reads <reads.fastq> --kraken2_db <kraken2_db_dir>
+python3  16S_challenge.py --reads <reads.fastq> --kraken_db <kraken2_db_dir>
 ```
 
 ### Merging tables ###
@@ -61,7 +61,7 @@ python3  16S_challenge.py --reads <reads.fastq> --kraken2_db <kraken2_db_dir>
 Using the script `combine_mpa.py` from [Jennifer Lu](https://github.com/jenniferlu717) you can merge all the mpa_tables into one unique table.
 
 ``` 
-python3 combine_mpa.py -i <all_folders>/kraken_output/*_genus.txt -o <merged_table.tsv>
+python3 combine_mpa.py -i <all_folders>/kraken*/*_genus.txt -o <merged_table.tsv>
 ``` 
 
 
