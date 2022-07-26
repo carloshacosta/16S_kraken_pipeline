@@ -1,4 +1,4 @@
-name: 16S_challenge
+name: 16S_kraken_pipeline
 channels:
   - conda-forge
   - bioconda
@@ -6,4 +6,5 @@ dependencies:
   - python=3.8
   - trimmomatic=0.38
   - fastqc
+  - kraken2
   - pandas=1.4.3
