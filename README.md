@@ -19,18 +19,15 @@ All the below dependecies must be installed in PATH variable of the system. Meet
 
 * trimmomatic (0.38)
 * fastqc (0.11.9)
-
-**Note** that KRAKEN2 must be locally installed and set in PATH variable.
-
 * kraken2 (2.3.4.1) --- Please see: [Kraken2 documentation](https://github.com/DerrickWood/kraken2)
 
 
 ## Installation
 
-The installation of ALLMT can be done by cloning the repo inside the destination folder
+The installation of the pipeline can be done by cloning the repo inside the destination folder
 
 ```
-  git clone https://github.com/carloshacosta/16S_kraken_pipeline
+  git clone https://github.com/carloshacosta/16S_kraken_pipeline.git
   cd /16S_kraken_pipeline
   chmod +x 16S_kraken_pipeline.py
 ```
@@ -40,7 +37,7 @@ The installation of ALLMT can be done by cloning the repo inside the destination
   conda env create -f env/packages.yml
   conda activate 16S_kraken_pipeline
 ```
-**Note** Once kraken2 must be installed in the path variable, you must install some of the available database to run analysis. In the exampĺe below we used rdp (Ribosomal Database Project) database
+**Note** Once kraken2 is installed, and set in the PATH variable, you must install some of the available database to run analysis. In the exampĺe below, we used rdp (Ribosomal Database Project) database
 
 ```
 kraken2-build --db <kraken2_db_dir> --special rdp
