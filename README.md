@@ -49,7 +49,7 @@ kraken2-build --db <kraken2_db_dir> --special rdp
 Once you have the database from `kraken2-build`.
 
 ```  
-python3  16S_challenge.py --reads <reads.fastq> --kraken_db <kraken2_db_dir>
+python3  16S_kraken_pipeline.py --reads <reads.fastq> --kraken_db <kraken2_db_dir>
 ```
 
 ### Merging tables ###
